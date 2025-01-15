@@ -26,8 +26,9 @@ data class User(
     var name: String? = null,
 
     @NotBlank
-    @Size(min = 6)
+    @Size(min = 6, message = "Password must be at least 6 characters long")
     var password: String? = null
+
 ) {
     constructor() : this(null, null, null, null, null) // Parametresiz constructor
 }
