@@ -30,5 +30,5 @@ data class User(
     var password: String? = null
 
 ) {
-    constructor() : this(null, null, null, null, null) // Parametresiz constructor
+    constructor() : this(null, null, null, null, null)
 }

@@ -11,7 +11,6 @@ class UserService(private val userRepository: UserRepository) {
 
     private val logger: Logger = LoggerFactory.getLogger(UserService::class.java)
 
-    // Create user
     fun createUser(user: User): User {
         logger.info("Attempting to create user with username: {} and email: {}", user.username, user.email)
         val savedUser = userRepository.save(user)
@@ -19,7 +18,6 @@ class UserService(private val userRepository: UserRepository) {
         return savedUser
     }
 
-    // Get all users
     fun getAllUsers(): List<User> {
         logger.info("Retrieving all users")
         val users = userRepository.findAll()
@@ -27,7 +25,6 @@ class UserService(private val userRepository: UserRepository) {
         return users
     }
 
-    // Get user by ID
     fun getUserById(id: Long): User? {
         logger.info("Searching for user with ID: {}", id)
         val user = userRepository.findById(id).orElse(null)
@@ -39,7 +36,6 @@ class UserService(private val userRepository: UserRepository) {
         return user
     }
 
-    // Update user
     fun updateUser(id: Long, user: User): User? {
         logger.info("Attempting to update user with ID: {}", id)
         return if (userRepository.existsById(id)) {
@@ -52,7 +48,6 @@ class UserService(private val userRepository: UserRepository) {
         }
     }
 
-    // Delete user
     fun deleteUser(id: Long): Boolean {
         logger.info("Attempting to delete user with ID: {}", id)
         val user = userRepository.findById(id).orElse(null)
