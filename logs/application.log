@@ -534,3 +534,176 @@ This generated password is for development use only. Your security configuration
 2025-01-16 06:08:09 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-01-16 06:08:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-01-16 06:08:09 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-16 06:51:51 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - Starting VolunsApplicationKt using Java 22.0.1 with PID 17564 (C:\Users\Murad\OneDrive\Desktop\voluns\build\classes\kotlin\main started by Murad in C:\Users\Murad\OneDrive\Desktop\voluns)
+2025-01-16 06:51:51 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 06:51:52 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 06:51:52 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35 ms. Found 1 JPA repository interfaces.
+2025-01-16 06:51:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1117 (http)
+2025-01-16 06:51:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-16 06:51:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-01-16 06:51:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-16 06:51:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1189 ms
+2025-01-16 06:51:52 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 06:51:52 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2025-01-16 06:51:52 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-01-16 06:51:53 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-01-16 06:51:53 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 06:51:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-16 06:51:53 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c9cafa5
+2025-01-16 06:51:53 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-16 06:51:53 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@41938e1e
+2025-01-16 06:51:53 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-01-16 06:51:54 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-16 06:51:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 06:51:54 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-16 06:51:54 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 98663830-5d96-4495-a3f7-d8bc16a9e35e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-16 06:51:54 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6484364f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ddb6c71, org.springframework.security.web.context.SecurityContextHolderFilter@3b9c05f, org.springframework.security.web.header.HeaderWriterFilter@402d76c7, org.springframework.security.web.authentication.logout.LogoutFilter@4e93d23e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@62a6a47e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ca5da54, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29f114e0, org.springframework.security.web.access.ExceptionTranslationFilter@70a91d72, org.springframework.security.web.access.intercept.AuthorizationFilter@4411a0fe]
+2025-01-16 06:51:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1117 (http) with context path ''
+2025-01-16 06:51:55 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - Started VolunsApplicationKt in 3.94 seconds (process running for 4.4)
+2025-01-16 06:52:45 [http-nio-1117-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-16 06:52:45 [http-nio-1117-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-16 06:52:45 [http-nio-1117-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-16 06:52:45 [http-nio-1117-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/createUser
+2025-01-16 06:52:45 [http-nio-1117-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/createUser
+2025-01-16 06:52:46 [http-nio-1117-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 06:53:02 [http-nio-1117-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/createUser
+2025-01-16 06:53:02 [http-nio-1117-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/createUser
+2025-01-16 06:53:02 [http-nio-1117-exec-6] INFO  c.voluns5.voluns.service.UserService - Attempting to create user with username: bvmuradf and email: bsimd117r@example.com
+2025-01-16 06:53:02 [http-nio-1117-exec-6] INFO  c.voluns5.voluns.service.UserService - User created successfully with ID: 28 and username: bvmuradf
+2025-01-16 06:53:02 [http-nio-1117-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 06:53:37 [http-nio-1117-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 06:53:37 [http-nio-1117-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 06:53:37 [http-nio-1117-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 06:54:22 [http-nio-1117-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 06:54:22 [http-nio-1117-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 06:54:22 [http-nio-1117-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 06:54:50 [http-nio-1117-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 06:54:50 [http-nio-1117-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 06:54:50 [http-nio-1117-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 06:56:16 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 06:56:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-16 06:56:16 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-16 06:58:47 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - Starting VolunsApplicationKt using Java 22.0.1 with PID 18936 (C:\Users\Murad\OneDrive\Desktop\voluns\build\classes\kotlin\main started by Murad in C:\Users\Murad\OneDrive\Desktop\voluns)
+2025-01-16 06:58:47 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 06:58:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 06:58:48 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interfaces.
+2025-01-16 06:58:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1117 (http)
+2025-01-16 06:58:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-16 06:58:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-01-16 06:58:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-16 06:58:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1189 ms
+2025-01-16 06:58:49 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 06:58:49 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2025-01-16 06:58:49 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-01-16 06:58:49 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-01-16 06:58:49 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 06:58:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-16 06:58:49 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6068ebb2
+2025-01-16 06:58:49 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-16 06:58:49 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@517a46f3
+2025-01-16 06:58:49 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-01-16 06:58:50 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-16 06:58:50 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 06:58:50 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-16 06:58:50 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: a2a8405d-32a4-486c-9807-837e62c158ad
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-16 06:58:50 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@44103266, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@439b0198, org.springframework.security.web.context.SecurityContextHolderFilter@1454339d, org.springframework.security.web.header.HeaderWriterFilter@1a3272e0, org.springframework.security.web.authentication.logout.LogoutFilter@5d00e30e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@78723798, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e70861, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c2dab10, org.springframework.security.web.access.ExceptionTranslationFilter@689fcf08, org.springframework.security.web.access.intercept.AuthorizationFilter@34766f4b]
+2025-01-16 06:58:50 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1117 (http) with context path ''
+2025-01-16 06:58:50 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - Started VolunsApplicationKt in 3.564 seconds (process running for 3.975)
+2025-01-16 06:59:22 [http-nio-1117-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-16 06:59:22 [http-nio-1117-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-16 06:59:22 [http-nio-1117-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-16 06:59:22 [http-nio-1117-exec-2] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 06:59:22 [http-nio-1117-exec-2] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 06:59:22 [http-nio-1117-exec-2] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-01-16 06:59:22 [http-nio-1117-exec-2] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 06:59:58 [http-nio-1117-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 06:59:58 [http-nio-1117-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 06:59:58 [http-nio-1117-exec-4] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-01-16 06:59:58 [http-nio-1117-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:00:38 [http-nio-1117-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 07:00:38 [http-nio-1117-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 07:00:38 [http-nio-1117-exec-3] WARN  o.s.s.c.bcrypt.BCryptPasswordEncoder - Encoded password does not look like BCrypt
+2025-01-16 07:00:38 [http-nio-1117-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:00:47 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 07:00:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-16 07:00:47 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-01-16 07:00:55 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - Starting VolunsApplicationKt using Java 22.0.1 with PID 15440 (C:\Users\Murad\OneDrive\Desktop\voluns\build\classes\kotlin\main started by Murad in C:\Users\Murad\OneDrive\Desktop\voluns)
+2025-01-16 07:00:55 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - No active profile set, falling back to 1 default profile: "default"
+2025-01-16 07:00:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-16 07:00:55 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2025-01-16 07:00:56 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 1117 (http)
+2025-01-16 07:00:56 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-01-16 07:00:56 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2025-01-16 07:00:56 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-01-16 07:00:56 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
+2025-01-16 07:00:56 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-16 07:00:56 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.2.2.Final
+2025-01-16 07:00:56 [main] INFO  org.hibernate.cfg.Environment - HHH000406: Using bytecode reflection optimizer
+2025-01-16 07:00:56 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-01-16 07:00:56 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-16 07:00:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-01-16 07:00:56 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@45297e7
+2025-01-16 07:00:56 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-01-16 07:00:56 [main] INFO  org.hibernate.orm.dialect - HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@1201e064
+2025-01-16 07:00:57 [main] INFO  o.h.b.i.BytecodeProviderInitiator - HHH000021: Bytecode provider name : bytebuddy
+2025-01-16 07:00:57 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-01-16 07:00:57 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 07:00:57 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-16 07:00:57 [main] WARN  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration - 
+
+Using generated security password: 935d25b9-ab38-47e0-bc75-1706a537130d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-01-16 07:00:58 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5466a819, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30cb489a, org.springframework.security.web.context.SecurityContextHolderFilter@7e1ce99c, org.springframework.security.web.header.HeaderWriterFilter@6c569caf, org.springframework.security.web.authentication.logout.LogoutFilter@73072745, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@209d0037, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6889e714, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@401d83ce, org.springframework.security.web.access.ExceptionTranslationFilter@2ddb6c71, org.springframework.security.web.access.intercept.AuthorizationFilter@6250d33c]
+2025-01-16 07:00:58 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 1117 (http) with context path ''
+2025-01-16 07:00:58 [main] INFO  c.voluns5.voluns.VolunsApplicationKt - Started VolunsApplicationKt in 3.507 seconds (process running for 3.937)
+2025-01-16 07:01:42 [http-nio-1117-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-16 07:01:42 [http-nio-1117-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-01-16 07:01:42 [http-nio-1117-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-01-16 07:01:42 [http-nio-1117-exec-1] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/users/25
+2025-01-16 07:01:42 [http-nio-1117-exec-1] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/users/25
+2025-01-16 07:01:42 [http-nio-1117-exec-1] INFO  c.voluns5.voluns.service.UserService - Attempting to delete user with ID: 25
+2025-01-16 07:01:43 [http-nio-1117-exec-1] INFO  c.voluns5.voluns.service.UserService - User deleted successfully with ID: 25 and username: bvmurad
+2025-01-16 07:01:43 [http-nio-1117-exec-1] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:01:48 [http-nio-1117-exec-3] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/users/23
+2025-01-16 07:01:48 [http-nio-1117-exec-3] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/users/23
+2025-01-16 07:01:48 [http-nio-1117-exec-3] INFO  c.voluns5.voluns.service.UserService - Attempting to delete user with ID: 23
+2025-01-16 07:01:48 [http-nio-1117-exec-3] INFO  c.voluns5.voluns.service.UserService - User deleted successfully with ID: 23 and username: flosxd
+2025-01-16 07:01:48 [http-nio-1117-exec-3] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:01:54 [http-nio-1117-exec-8] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/users/26
+2025-01-16 07:01:54 [http-nio-1117-exec-8] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/users/26
+2025-01-16 07:01:54 [http-nio-1117-exec-8] INFO  c.voluns5.voluns.service.UserService - Attempting to delete user with ID: 26
+2025-01-16 07:01:54 [http-nio-1117-exec-8] INFO  c.voluns5.voluns.service.UserService - User deleted successfully with ID: 26 and username: simuzs
+2025-01-16 07:01:54 [http-nio-1117-exec-8] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:01:58 [http-nio-1117-exec-5] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/users/27
+2025-01-16 07:01:58 [http-nio-1117-exec-5] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/users/27
+2025-01-16 07:01:58 [http-nio-1117-exec-5] INFO  c.voluns5.voluns.service.UserService - Attempting to delete user with ID: 27
+2025-01-16 07:01:58 [http-nio-1117-exec-5] INFO  c.voluns5.voluns.service.UserService - User deleted successfully with ID: 27 and username: simuzst
+2025-01-16 07:01:58 [http-nio-1117-exec-5] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:02:02 [http-nio-1117-exec-6] DEBUG o.s.security.web.FilterChainProxy - Securing DELETE /api/users/28
+2025-01-16 07:02:02 [http-nio-1117-exec-6] DEBUG o.s.security.web.FilterChainProxy - Secured DELETE /api/users/28
+2025-01-16 07:02:02 [http-nio-1117-exec-6] INFO  c.voluns5.voluns.service.UserService - Attempting to delete user with ID: 28
+2025-01-16 07:02:02 [http-nio-1117-exec-6] INFO  c.voluns5.voluns.service.UserService - User deleted successfully with ID: 28 and username: bvmuradf
+2025-01-16 07:02:02 [http-nio-1117-exec-6] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:02:38 [http-nio-1117-exec-7] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/createUser
+2025-01-16 07:02:38 [http-nio-1117-exec-7] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/createUser
+2025-01-16 07:02:38 [http-nio-1117-exec-7] INFO  c.voluns5.voluns.service.UserService - Attempting to create user with username: bvmurad and email: bvmurad117@example.com
+2025-01-16 07:02:38 [http-nio-1117-exec-7] INFO  c.voluns5.voluns.service.UserService - User created successfully with ID: 29 and username: bvmurad
+2025-01-16 07:02:38 [http-nio-1117-exec-7] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:03:08 [http-nio-1117-exec-4] DEBUG o.s.security.web.FilterChainProxy - Securing POST /api/users/login
+2025-01-16 07:03:08 [http-nio-1117-exec-4] DEBUG o.s.security.web.FilterChainProxy - Secured POST /api/users/login
+2025-01-16 07:03:08 [http-nio-1117-exec-4] DEBUG o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-01-16 07:03:20 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-16 07:03:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-01-16 07:03:20 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
