@@ -1,4 +1,4 @@
-package com.voluns5.voluns.model
+package com.voluns5.voluns
 
 data class ResponseWrapper<T>(
     val status: String,

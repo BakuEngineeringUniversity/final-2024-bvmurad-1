@@ -1,7 +1,7 @@
 package com.voluns5.voluns.controller
 
 import com.voluns5.voluns.LoginRequest
-import com.voluns5.voluns.model.ResponseWrapper
+import com.voluns5.voluns.ResponseWrapper
 import com.voluns5.voluns.model.User
 import com.voluns5.voluns.repository.UserRepository
 import com.voluns5.voluns.service.UserService
