@@ -1,4 +1,4 @@
-package com.voluns5.voluns.response
+package com.voluns5.voluns
 
 data class ApiResponse<T>(
     val status: String,
