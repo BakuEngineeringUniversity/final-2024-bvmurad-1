@@ -4,7 +4,6 @@ import com.voluns5.voluns.model.User
 import com.voluns5.voluns.repository.UserRepository
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
 import org.springframework.stereotype.Service
 
 @Service
@@ -18,14 +17,6 @@ class UserService(private val userRepository: UserRepository) {
         logger.info("User created successfully with ID: {} and username: {}", savedUser.id, savedUser.username)
         return savedUser
     }
-
-    fun getAllUsers(): List<User> {
-        logger.info("Retrieving all users")
-        val users = userRepository.findAll()
-        logger.info("Retrieved {} users", users.size)
-        return users
-    }
-
     fun getUserById(id: Long): User? {
         logger.info("Searching for user with ID: {}", id)
         val user = userRepository.findById(id).orElse(null)
@@ -36,7 +27,6 @@ class UserService(private val userRepository: UserRepository) {
         }
         return user
     }
-
     fun updateUser(id: Long, user: User): User? {
         logger.info("Attempting to update user with ID: {}", id)
         return if (userRepository.existsById(id)) {
