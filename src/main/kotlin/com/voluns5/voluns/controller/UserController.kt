@@ -85,35 +85,6 @@ class UserController(
             ResponseEntity.status(500).body(response)
         }
     }
-   /* @PostMapping("/login")
-    fun loginUser(@RequestBody loginRequest: LoginRequest): ResponseEntity<ResponseWrapper<User>> {
-        return try {
-            val user = userRepository.findByUsername(loginRequest.username)
-            if (user.isPresent && user.get().password == loginRequest.password) {
-                val response = ResponseWrapper(
-                    status = "success",
-                    message = "Login successful",
-                    data = user.get()
-                )
-                ResponseEntity.ok(response)
-            } else {
-                val response = ResponseWrapper<User>(
-                    status = "error",
-                    message = "Invalid username or password",
-                    data = null
-                )
-                ResponseEntity.status(401).body(response)
-            }
-        } catch (ex: Exception) {
-            val response = ResponseWrapper<User>(
-                status = "error",
-                message = "Login failed: ${ex.message}",
-                data = null
-            )
-            ResponseEntity.status(500).body(response)
-        }
-    }*/
-
     @PostMapping("/login")
     fun loginUser(@RequestBody loginRequest: LoginRequest): ResponseEntity<ResponseWrapper<User>> {
         return try {
