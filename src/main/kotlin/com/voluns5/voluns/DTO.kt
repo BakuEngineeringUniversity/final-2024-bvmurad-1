@@ -1,4 +1,4 @@
-package com.voluns5.voluns.dto
+package com.voluns5.voluns
 
 data class LoginRequest(
     val username: String,

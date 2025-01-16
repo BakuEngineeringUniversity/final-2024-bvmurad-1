@@ -6,6 +6,10 @@ import org.springframework.stereotype.Service
 @Service
 class ValidationService(val config: UserValidationConfig) {
 
+    fun validateUsername(username: String): Boolean {
+        return username.length in config.minUsernameLength..config.maxUsernameLength
+    }
+
     fun validatePassword(password: String): Boolean {
         return password.length >= config.minPasswordLength
     }
@@ -14,3 +18,4 @@ class ValidationService(val config: UserValidationConfig) {
         return Regex(config.emailRegex).matches(email)
     }
 }
+
