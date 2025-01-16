@@ -9,11 +9,9 @@ class ValidationService(val config: UserValidationConfig) {
     fun validateUsername(username: String): Boolean {
         return username.length in config.minUsernameLength..config.maxUsernameLength
     }
-
     fun validatePassword(password: String): Boolean {
         return password.length >= config.minPasswordLength
     }
-
     fun validateEmail(email: String): Boolean {
         return Regex(config.emailRegex).matches(email)
     }
