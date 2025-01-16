@@ -38,7 +38,6 @@ class UserService(private val userRepository: UserRepository) {
             null
         }
     }
-
     fun deleteUser(id: Long): Boolean {
         logger.info("Attempting to delete user with ID: {}", id)
         val user = userRepository.findById(id).orElse(null)
