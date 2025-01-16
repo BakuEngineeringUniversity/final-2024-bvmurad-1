@@ -173,7 +173,8 @@ class UserController(
                 data = null
             )
             ResponseEntity.status(500).body(response)
-        }}
+        }
+    }
 
 
         @DeleteMapping("/{id}")
